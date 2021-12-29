@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigasi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!-- <input type="checkbox" name="chk" id="chk" /> -->
+        <div class="logo">
+          <i class="bx bxs-planet logo-planet"></i>
+        </div>
+        <div class="navigasi">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Abouts</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <button class="btn-mobile">Contact</button>
+            <label class="menu-toggle" onclick="menuToggle()">
+              <i class="bx bx-x icons"></i>
+            </label>
+          </ul>
+        </div>
+        <div class="btn">
+          <button class="btn-contact">Contact</button>
+          <label class="menu-toggle" onclick="menuToggle()">
+            <i class="bx bx-menu icons"></i>
+          </label>
+        </div>
+      </div>
+      <div class="content">
+        <h1>CONTENT</h1>
+      </div>
+    </header>
+    <script src="main.js"></script>
+  </body>
+</html>
